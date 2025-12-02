@@ -1,0 +1,16 @@
+inizio/
+venv/
+env/
+.venv/
+
+__pycache__/
+*.pyc
+*.pyo
+
+.git
+.gitignore
+
+*.csv
+*.xml
+*.json
+.env

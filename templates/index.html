@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Google Search Downloader</title>
+</head>
+<body>
+    <h1>Vyhledávání Google</h1>
+    <form id="searchForm" method="post" action="/search">
+        <input type="text" name="query" placeholder="Co hledat?" required>
+        <select name="format">
+            <option value="json">JSON</option>
+            <option value="csv">CSV</option>
+            <option value="xml">XML</option>
+        </select>
+        <button type="submit">Stáhnout</button>
+    </form>
+</body>
+</html>

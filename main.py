@@ -65,7 +65,7 @@ async def search(request: Request, query: str = Form(...), format: str = Form(..
         return FileResponse(filename, media_type="application/xml", filename=filename)
     
     # pro CSV
-    elif format == "csv":
+    if format == "csv":
         filename = "results.csv"
         with open(filename, mode="w", newline="", encoding="utf-8") as file:
             writer = csv.writer(file)

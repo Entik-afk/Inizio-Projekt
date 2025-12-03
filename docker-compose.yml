@@ -6,6 +6,6 @@ services:
     ports:
       - "8000:8000"
     environment:
-      - ENV=development
+      - .env
     command: uvicorn main:app --host 0.0.0.0 --port 8000
 

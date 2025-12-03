@@ -1,2 +1,5 @@
 .env
 inizio/
+*.csv
+*.xml
+*.json
